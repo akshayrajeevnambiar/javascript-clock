@@ -30,7 +30,14 @@ function Clock() {
 
     return (
         <div>
-            {currentHours}:{currentMinutes}:{currentSeconds}:{currentTimeOfDay}
+            let clock = {'{<br/>'}
+            hour: {currentHours}{",\n"}
+            minute: {currentMinutes}{",\n"}
+            second:{currentSeconds}{",\n"}
+            period: {currentTimeOfDay}
+            day:
+            month:
+            year:
         </div>
     );
 }
